@@ -1,4 +1,4 @@
-export function solution(num) {
+function solution(num) {
     if (num <= 1) {
         return [];
     }
@@ -20,3 +20,6 @@ export function solution(num) {
 
     return resultado;
 }
+
+
+console.log(solution(30));
